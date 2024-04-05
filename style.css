@@ -1,0 +1,54 @@
+*{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 8px black solid;
+    border-radius: 20%;
+    margin: 1rem;
+    display: inline-block;
+}
+
+#container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: rgb(228, 99, 99);
+}
+
+.purple{
+    background-color: rgb(91, 91, 184);
+}
+
+.green{
+    background-color: rgb(68, 183, 68);
+}
+
+.orange{
+    background-color: rgb(226, 160, 37);
+}
+
+.white{
+    background-color: white;
+}
+
+.greenB{
+    background-color: green;
+}
+
+.redB{
+    background-color: red;
+}
+
+h2{
+    margin-top: 2rem;
+    color: rgb(31, 30, 30);
+    font-weight: 900;
+}
